@@ -5,6 +5,8 @@ import os
 import logging
 import openai
 import telebot
+from dotenv import load dotenv
+load dotenv()
 
 # Ключи из переменных окружения
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
